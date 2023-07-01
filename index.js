@@ -87,6 +87,7 @@ console.log(wordMachine(string, 3)); // argument passed in number.
 function fullName(firstName,lastName){
   let firstName = "Ram";
    let lastName = "Giri";
+   return firstName+ ' ' +lastName;
  }
 console.log(fullName(firstName + ' ' + lastName));
 
@@ -170,18 +171,12 @@ function buyDrink(isHotOutside,moneyInPocket){
 
 
 //13. save function 
-// customer will make a payment
-// if the payment is successful
-// ask customer if they want to save a payment
-// if the card is valid for  a year save the payment otherwise
-// populate message please renew your card
-
-
-function cardPayment(card){
-    if (cardPayment = true && cardExpiratiodate >= 1){
-        console.log("Do you want to save your card.");
-    } else if {
-        console.log(alert("please Renew your card"));
-
+// Take 2 numbers and return the smallest number.
+// example input : 3, 5  => output 3
+// example input : 100, -3 => output -3 
+function findSmall(a,b){
+    if (a>b){
+        return b;
     }
+    else return a;
 }
